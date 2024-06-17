@@ -283,3 +283,8 @@ C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\JWT\EmployeeDirectory\obj\Debu
 C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\JWT\EmployeeDirectory\obj\Debug\net8.0\EmployeeDirectory.pdb
 C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\JWT\EmployeeDirectory\obj\Debug\net8.0\EmployeeDirectory.genruntimeconfig.cache
 C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\JWT\EmployeeDirectory\obj\Debug\net8.0\ref\EmployeeDirectory.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\JWT\EmployeeDirectory\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\JWT\EmployeeDirectory\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\JWT\EmployeeDirectory\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\JWT\EmployeeDirectory\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\JWT\EmployeeDirectory\bin\Debug\net8.0\Microsoft.Extensions.Options.dll

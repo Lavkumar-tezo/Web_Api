@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory\\EmployeeDirectory.csproj": {}
+    "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory\\EmployeeDirectory.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj": {
+    "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj",
+        "projectUniqueName": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj",
         "projectName": "EmployeeDirectory.BAL",
-        "projectPath": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj",
+        "projectPath": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj",
         "packagesPath": "C:\\Users\\lav.k\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\obj\\",
+        "outputPath": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory.BAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lav.k\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj": {
-                "projectPath": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj"
+              "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj": {
+                "projectPath": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj"
               }
             }
           }
@@ -54,6 +54,10 @@
               "version": "[13.0.1, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
               "target": "Package",
               "version": "[8.0.6, )"
             },
@@ -110,14 +114,14 @@
         }
       }
     },
-    "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj": {
+    "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj",
         "projectName": "EmployeeDirectory.DAL",
-        "projectPath": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj",
+        "projectPath": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj",
         "packagesPath": "C:\\Users\\lav.k\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.DAL\\obj\\",
+        "outputPath": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lav.k\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -155,6 +159,10 @@
               "target": "Package",
               "version": "[8.0.6, )"
             },
+            "Microsoft.AspNetCore.Authorization": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.6, )"
@@ -208,14 +216,14 @@
         }
       }
     },
-    "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory\\EmployeeDirectory.csproj": {
+    "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory\\EmployeeDirectory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory\\EmployeeDirectory.csproj",
+        "projectUniqueName": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory\\EmployeeDirectory.csproj",
         "projectName": "EmployeeDirectory",
-        "projectPath": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory\\EmployeeDirectory.csproj",
+        "projectPath": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory\\EmployeeDirectory.csproj",
         "packagesPath": "C:\\Users\\lav.k\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory\\obj\\",
+        "outputPath": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lav.k\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -232,8 +240,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj": {
-                "projectPath": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj"
+              "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj": {
+                "projectPath": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj"
               }
             }
           }
@@ -258,6 +266,10 @@
               "version": "[13.0.1, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
               "target": "Package",
               "version": "[8.0.6, )"
             },

@@ -16,7 +16,7 @@ namespace EmployeeDirectory.DAL.Repositories
 
         public async Task<Department> Get(string id)
         {
-            Department? department = await _dbEfContext.Departments.FirstOrDefaultAsync(dept => dept.Id == Int32.Parse(id));
+            Department? department = await _dbEfContext.Departments.FirstOrDefaultAsync(dept => dept.Id.Equals(id));
             if (department == null)
             {
                 throw new Exception("Selected Department not found");

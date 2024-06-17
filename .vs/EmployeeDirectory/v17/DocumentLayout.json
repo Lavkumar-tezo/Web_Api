@@ -3,84 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory.bal\\validators\\rolevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|solutionrelative:employeedirectory.bal\\validators\\rolevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory.bal\\validators\\employeevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|solutionrelative:employeedirectory.bal\\validators\\employeevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{872537F5-0083-44E7-9C48-5B6FA06A45D3}|EmployeeDirectory\\EmployeeDirectory.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{872537F5-0083-44E7-9C48-5B6FA06A45D3}|EmployeeDirectory\\EmployeeDirectory.csproj|solutionrelative:employeedirectory\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory.bal\\interfaces\\validators\\iemployeevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|solutionrelative:employeedirectory.bal\\interfaces\\validators\\iemployeevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{872537F5-0083-44E7-9C48-5B6FA06A45D3}|EmployeeDirectory\\EmployeeDirectory.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{872537F5-0083-44E7-9C48-5B6FA06A45D3}|EmployeeDirectory\\EmployeeDirectory.csproj|solutionrelative:employeedirectory\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{27BE4455-A294-4BAF-9160-B12122D09FCE}|EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory.dal\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27BE4455-A294-4BAF-9160-B12122D09FCE}|EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj|solutionrelative:employeedirectory.dal\\repositories\\rolerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27BE4455-A294-4BAF-9160-B12122D09FCE}|EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory.dal\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27BE4455-A294-4BAF-9160-B12122D09FCE}|EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj|solutionrelative:employeedirectory.dal\\repositories\\projectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27BE4455-A294-4BAF-9160-B12122D09FCE}|EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory.dal\\repositories\\locationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27BE4455-A294-4BAF-9160-B12122D09FCE}|EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj|solutionrelative:employeedirectory.dal\\repositories\\locationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{27BE4455-A294-4BAF-9160-B12122D09FCE}|EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory.dal\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{27BE4455-A294-4BAF-9160-B12122D09FCE}|EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj|solutionrelative:employeedirectory.dal\\repositories\\departmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory.bal\\dto\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|solutionrelative:employeedirectory.bal\\dto\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{872537F5-0083-44E7-9C48-5B6FA06A45D3}|EmployeeDirectory\\EmployeeDirectory.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{872537F5-0083-44E7-9C48-5B6FA06A45D3}|EmployeeDirectory\\EmployeeDirectory.csproj|solutionrelative:employeedirectory\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{872537F5-0083-44E7-9C48-5B6FA06A45D3}|EmployeeDirectory\\EmployeeDirectory.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{872537F5-0083-44E7-9C48-5B6FA06A45D3}|EmployeeDirectory\\EmployeeDirectory.csproj|solutionrelative:employeedirectory\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{872537F5-0083-44E7-9C48-5B6FA06A45D3}|EmployeeDirectory\\EmployeeDirectory.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{872537F5-0083-44E7-9C48-5B6FA06A45D3}|EmployeeDirectory\\EmployeeDirectory.csproj|solutionrelative:employeedirectory\\controllers\\rolecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory.bal\\helper\\modelmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|solutionrelative:employeedirectory.bal\\helper\\modelmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory.bal\\validators\\rolevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|solutionrelative:employeedirectory.bal\\validators\\rolevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory.bal\\interfaces\\validators\\irolevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|solutionrelative:employeedirectory.bal\\interfaces\\validators\\irolevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory.bal\\helper\\employeemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|solutionrelative:employeedirectory.bal\\helper\\employeemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory.bal\\providers\\employeeprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|solutionrelative:employeedirectory.bal\\providers\\employeeprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory.bal\\providers\\roleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|solutionrelative:employeedirectory.bal\\providers\\roleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory.bal\\providers\\projectprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|solutionrelative:employeedirectory.bal\\providers\\projectprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory.bal\\providers\\locationprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|solutionrelative:employeedirectory.bal\\providers\\locationprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory.bal\\providers\\departmentprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|solutionrelative:employeedirectory.bal\\providers\\departmentprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory.bal\\helper\\rolemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|solutionrelative:employeedirectory.bal\\helper\\rolemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|c:\\users\\lav.k\\onedrive - technovert\\desktop\\tezo\\jwt\\employeedirectory.bal\\validators\\employeevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9562D17-CDFC-4724-A595-06458FC3CAD8}|EmployeeDirectory.BAL\\EmployeeDirectory.BAL.csproj|solutionrelative:employeedirectory.bal\\validators\\employeevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,261 +54,93 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\DTO\\User.cs",
+              "RelativeDocumentMoniker": "EmployeeDirectory.BAL\\DTO\\User.cs",
+              "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\DTO\\User.cs",
+              "RelativeToolTip": "EmployeeDirectory.BAL\\DTO\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T14:31:23.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "RoleValidator.cs",
-              "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Validators\\RoleValidator.cs",
-              "RelativeDocumentMoniker": "EmployeeDirectory.BAL\\Validators\\RoleValidator.cs",
-              "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Validators\\RoleValidator.cs",
-              "RelativeToolTip": "EmployeeDirectory.BAL\\Validators\\RoleValidator.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAYwCYAAABUAAAA",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "EmployeeDirectory\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory\\Controllers\\AuthController.cs*",
+              "RelativeToolTip": "EmployeeDirectory\\Controllers\\AuthController.cs*",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAcwBQAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:48:11.106Z",
+              "WhenOpened": "2024-06-17T14:04:15.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IEmployeeValidator.cs",
-              "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Interfaces\\Validators\\IEmployeeValidator.cs",
-              "RelativeDocumentMoniker": "EmployeeDirectory.BAL\\Interfaces\\Validators\\IEmployeeValidator.cs",
-              "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Interfaces\\Validators\\IEmployeeValidator.cs",
-              "RelativeToolTip": "EmployeeDirectory.BAL\\Interfaces\\Validators\\IEmployeeValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:13:33.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "RoleRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.DAL\\Repositories\\RoleRepository.cs",
-              "RelativeDocumentMoniker": "EmployeeDirectory.DAL\\Repositories\\RoleRepository.cs",
-              "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.DAL\\Repositories\\RoleRepository.cs",
-              "RelativeToolTip": "EmployeeDirectory.DAL\\Repositories\\RoleRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAACQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:10:20.226Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProjectRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.DAL\\Repositories\\ProjectRepository.cs",
-              "RelativeDocumentMoniker": "EmployeeDirectory.DAL\\Repositories\\ProjectRepository.cs",
-              "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.DAL\\Repositories\\ProjectRepository.cs",
-              "RelativeToolTip": "EmployeeDirectory.DAL\\Repositories\\ProjectRepository.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwBkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:10:08.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LocationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.DAL\\Repositories\\LocationRepository.cs",
-              "RelativeDocumentMoniker": "EmployeeDirectory.DAL\\Repositories\\LocationRepository.cs",
-              "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.DAL\\Repositories\\LocationRepository.cs",
-              "RelativeToolTip": "EmployeeDirectory.DAL\\Repositories\\LocationRepository.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwBkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:09:59.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DepartmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.DAL\\Repositories\\DepartmentRepository.cs",
-              "RelativeDocumentMoniker": "EmployeeDirectory.DAL\\Repositories\\DepartmentRepository.cs",
-              "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.DAL\\Repositories\\DepartmentRepository.cs",
-              "RelativeToolTip": "EmployeeDirectory.DAL\\Repositories\\DepartmentRepository.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAQwB0AAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T06:09:49.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory\\Program.cs",
               "RelativeDocumentMoniker": "EmployeeDirectory\\Program.cs",
               "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory\\Program.cs",
               "RelativeToolTip": "EmployeeDirectory\\Program.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwDAAAABQAAAA",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAQwGgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T05:55:53.515Z",
+              "WhenOpened": "2024-06-17T13:57:07.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ModelMapper.cs",
-              "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Helper\\ModelMapper.cs",
-              "RelativeDocumentMoniker": "EmployeeDirectory.BAL\\Helper\\ModelMapper.cs",
-              "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Helper\\ModelMapper.cs",
-              "RelativeToolTip": "EmployeeDirectory.BAL\\Helper\\ModelMapper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T05:46:54.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "EmployeeDirectory\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "EmployeeDirectory\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAABGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T05:43:17.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "IRoleValidator.cs",
-              "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Interfaces\\Validators\\IRoleValidator.cs",
-              "RelativeDocumentMoniker": "EmployeeDirectory.BAL\\Interfaces\\Validators\\IRoleValidator.cs",
-              "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Interfaces\\Validators\\IRoleValidator.cs",
-              "RelativeToolTip": "EmployeeDirectory.BAL\\Interfaces\\Validators\\IRoleValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T05:31:54.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "RoleProvider.cs",
-              "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Providers\\RoleProvider.cs",
-              "RelativeDocumentMoniker": "EmployeeDirectory.BAL\\Providers\\RoleProvider.cs",
-              "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Providers\\RoleProvider.cs",
-              "RelativeToolTip": "EmployeeDirectory.BAL\\Providers\\RoleProvider.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAYwDMAAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T05:01:22.746Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ProjectProvider.cs",
-              "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Providers\\ProjectProvider.cs",
-              "RelativeDocumentMoniker": "EmployeeDirectory.BAL\\Providers\\ProjectProvider.cs",
-              "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Providers\\ProjectProvider.cs",
-              "RelativeToolTip": "EmployeeDirectory.BAL\\Providers\\ProjectProvider.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwCAAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T05:01:21.592Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "LocationProvider.cs",
-              "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Providers\\LocationProvider.cs",
-              "RelativeDocumentMoniker": "EmployeeDirectory.BAL\\Providers\\LocationProvider.cs",
-              "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Providers\\LocationProvider.cs",
-              "RelativeToolTip": "EmployeeDirectory.BAL\\Providers\\LocationProvider.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAAwCUAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T05:01:17.256Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "EmployeeProvider.cs",
-              "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Providers\\EmployeeProvider.cs",
-              "RelativeDocumentMoniker": "EmployeeDirectory.BAL\\Providers\\EmployeeProvider.cs",
-              "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Providers\\EmployeeProvider.cs",
-              "RelativeToolTip": "EmployeeDirectory.BAL\\Providers\\EmployeeProvider.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T04:58:14.224Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DepartmentProvider.cs",
-              "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Providers\\DepartmentProvider.cs",
-              "RelativeDocumentMoniker": "EmployeeDirectory.BAL\\Providers\\DepartmentProvider.cs",
-              "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Providers\\DepartmentProvider.cs",
-              "RelativeToolTip": "EmployeeDirectory.BAL\\Providers\\DepartmentProvider.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAYwB4AAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T04:57:23.692Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EmployeeValidator.cs",
-              "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Validators\\EmployeeValidator.cs",
-              "RelativeDocumentMoniker": "EmployeeDirectory.BAL\\Validators\\EmployeeValidator.cs",
-              "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Validators\\EmployeeValidator.cs",
-              "RelativeToolTip": "EmployeeDirectory.BAL\\Validators\\EmployeeValidator.cs",
-              "ViewState": "AQIAAJsAAAAAAAAAAIAwwKMAAABNAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T13:31:13.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EmployeeMapper.cs",
-              "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Helper\\EmployeeMapper.cs",
-              "RelativeDocumentMoniker": "EmployeeDirectory.BAL\\Helper\\EmployeeMapper.cs",
-              "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Helper\\EmployeeMapper.cs",
-              "RelativeToolTip": "EmployeeDirectory.BAL\\Helper\\EmployeeMapper.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAuwCkAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-09T13:29:39.829Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "RoleMapper.cs",
-              "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Helper\\RoleMapper.cs",
-              "RelativeDocumentMoniker": "EmployeeDirectory.BAL\\Helper\\RoleMapper.cs",
-              "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Helper\\RoleMapper.cs",
-              "RelativeToolTip": "EmployeeDirectory.BAL\\Helper\\RoleMapper.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAgAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T13:36:39.26Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EmployeeController.cs",
               "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory\\Controllers\\EmployeeController.cs",
               "RelativeDocumentMoniker": "EmployeeDirectory\\Controllers\\EmployeeController.cs",
               "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory\\Controllers\\EmployeeController.cs",
               "RelativeToolTip": "EmployeeDirectory\\Controllers\\EmployeeController.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAowEAAAABPAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T12:45:51.799Z",
+              "WhenOpened": "2024-06-17T13:36:41.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "RoleController.cs",
               "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory\\Controllers\\RoleController.cs",
               "RelativeDocumentMoniker": "EmployeeDirectory\\Controllers\\RoleController.cs",
               "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory\\Controllers\\RoleController.cs",
               "RelativeToolTip": "EmployeeDirectory\\Controllers\\RoleController.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAIAwwA8AAAAPAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T12:44:48.682Z",
+              "WhenOpened": "2024-06-17T12:46:08.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RoleValidator.cs",
+              "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Validators\\RoleValidator.cs",
+              "RelativeDocumentMoniker": "EmployeeDirectory.BAL\\Validators\\RoleValidator.cs",
+              "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Validators\\RoleValidator.cs",
+              "RelativeToolTip": "EmployeeDirectory.BAL\\Validators\\RoleValidator.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAYwC0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T12:38:26.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeValidator.cs",
+              "DocumentMoniker": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Validators\\EmployeeValidator.cs",
+              "RelativeDocumentMoniker": "EmployeeDirectory.BAL\\Validators\\EmployeeValidator.cs",
+              "ToolTip": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.BAL\\Validators\\EmployeeValidator.cs",
+              "RelativeToolTip": "EmployeeDirectory.BAL\\Validators\\EmployeeValidator.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAwwLIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T12:36:31.926Z",
               "EditorCaption": ""
             }
           ]

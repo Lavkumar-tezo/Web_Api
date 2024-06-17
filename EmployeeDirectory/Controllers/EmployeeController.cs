@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using EmployeeDirectory.BAL.DTO;
 using EmployeeDirectory.BAL.Interfaces.Helpers;
 using EmployeeDirectory.BAL.Interfaces.Providers;
 using EmployeeDirectory.BAL.Interfaces.Validators;
@@ -12,7 +13,6 @@ namespace EmployeeDirectory.Controllers
     [Route("api/[controller]")]
     [ApiController]
     [Authorize]
-
     public class EmployeeController(IEmployeeProvider employee,IEmployeeValidator validator,IMapper mapper) : ControllerBase
     {
         private readonly IEmployeeProvider _employee = employee;
@@ -23,7 +23,7 @@ namespace EmployeeDirectory.Controllers
         [HttpGet]
         public async Task<IActionResult> GetEmployees()
         {
-            List<Employee> employees =await _employee.GetEmployees();
+            List<DAL.Models.Employee> employees =await _employee.GetEmployees();
             if (employees.Count == 0)
             {
                 return Ok("No Employee found");
@@ -42,8 +42,8 @@ namespace EmployeeDirectory.Controllers
         {
             try
             {
-                Employee entityEmployee =await _employee.GetEmployeeById(id);
-                BAL.DTO.Employee emp = _mapper.Map<BAL.DTO.Employee>(employee);
+                DAL.Models.Employee entityEmployee =await _employee.GetEmployeeById(id);
+                BAL.DTO.Employee emp = _mapper.Map<BAL.DTO.Employee>(entityEmployee);
                 return Ok(emp);
             }
             catch(Exception ex)
@@ -51,6 +51,28 @@ namespace EmployeeDirectory.Controllers
                 return NotFound(ex.Message);
             }                       
         }
+
+        [Route("[action]/role/{id}")]
+        [HttpGet]
+        public async Task<IActionResult> GetEmployeesByRoleId(string id)
+        {
+            try
+            {
+                List<DAL.Models.Employee> entityEmployee = await _employee.GetEmployees();
+                entityEmployee= entityEmployee.Where(emp=>emp.RoleId.Equals(id)).ToList();
+                List<BAL.DTO.Employee> dtoRoles = [];
+                foreach (var employee in entityEmployee)
+                {
+                    dtoRoles.Add(_mapper.Map<BAL.DTO.Employee>(employee));
+                }
+                return Ok(dtoRoles);
+            }
+            catch (Exception ex)
+            {
+                return NotFound(ex.Message);
+            }
+        }
+
 
         [Route("[action]")]
         [HttpPost]
@@ -62,7 +84,7 @@ namespace EmployeeDirectory.Controllers
             }
             try
             {
-                Employee emp=await _employeeValidator.ValidateEmployeeDTO(dto);
+                DAL.Models.Employee emp=await _employeeValidator.ValidateEmployeeDTO(dto);
                 await _employee.AddEmployee(emp);
                 return Ok("Employee added");
             }
@@ -81,11 +103,14 @@ namespace EmployeeDirectory.Controllers
             {
                 return BadRequest("Invalid input data");
             }
-            
+            if (!id.Equals(dto.Id))
+            {
+                return BadRequest("Invalid input data");
+            }
             try
             {
-                Employee? selectedEmp = await _employee.GetEmployeeById(id);
-                Employee emp =await _employeeValidator.ValidateEmployeeDTO(dto,selectedEmp);
+                DAL.Models.Employee? selectedEmp = await _employee.GetEmployeeById(id);
+                DAL.Models.Employee emp =await _employeeValidator.ValidateEmployeeDTO(dto,selectedEmp);
                 await _employee.UpdateEmployee(emp);
                 return Ok("Employee Updated");
             }

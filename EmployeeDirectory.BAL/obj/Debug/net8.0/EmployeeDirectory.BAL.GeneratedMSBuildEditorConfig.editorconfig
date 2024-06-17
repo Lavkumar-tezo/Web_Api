@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EmployeeDirectory.BAL
-build_property.ProjectDir = C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\JWT\EmployeeDirectory.BAL\
+build_property.ProjectDir = C:\Users\lav.k\OneDrive - Technovert\Desktop\tezo\JWT\Web_Api\EmployeeDirectory.BAL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

@@ -13,16 +13,17 @@ namespace EmployeeDirectory.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [Authorize]
-    public class RoleController(IRoleProvider role,IRoleValidator val,IMapper mapper) : Controller
+    
+    public class RoleController(IRoleProvider role,IRoleValidator val,IMapper mapper,IProvider<DAL.Models.Department> dept, IProvider<DAL.Models.Location> loc) : Controller
     {
         private readonly IRoleProvider _role = role;
         private readonly IRoleValidator _roleValidator=val;
+        private readonly IProvider<DAL.Models.Department> _dept = dept;
+        private readonly IProvider<DAL.Models.Location> _loc = loc;
         private readonly IMapper _mapper=mapper;
         
         [Route("[action]")]
         [HttpGet]
-        [Authorize]
         public async Task<IActionResult> GetRoles()
         {
             List<DAL.Models.Role> roles =await _role.GetRoles();
@@ -38,7 +39,46 @@ namespace EmployeeDirectory.Controllers
             return Ok(dtoRoles);
         }
 
-        
+        [Route("[action]")]
+        [HttpGet]
+        public async Task<IActionResult> GetAllRoleNames()
+        {
+            List<DAL.Models.Role> roles = await _role.GetRoles();
+            if (roles.Count == 0)
+            {
+                return Ok();
+            }
+            string[] names = roles.Select(role=>role.Name).ToArray();
+            return Ok(names);
+        }
+
+        [Route("[action]")]
+        [HttpGet]
+        public async Task<IActionResult> GetRoleByDeptLoc(string locationId,string departmentId)
+        {
+            List<DAL.Models.Role> roles = await _role.GetRoles();
+            if (roles.Count == 0)
+            {
+                return Ok();
+            }
+            
+            var filteredRoles = roles
+            .Where(role => role.Departments
+                .Any(dept => dept.Id.Equals(departmentId, StringComparison.OrdinalIgnoreCase)))
+            .ToList();
+            filteredRoles = filteredRoles
+            .Where(role => role.Locations
+                .Any(dept => dept.Id.Equals(locationId, StringComparison.OrdinalIgnoreCase)))
+            .ToList();
+            List<BAL.DTO.Role> dtoRoles = [];
+            foreach (var item in filteredRoles)
+            {
+                dtoRoles.Add(_mapper.Map<BAL.DTO.Role>(item));
+            }
+            return Ok(dtoRoles);
+        }
+
+        [Route("[action]")]
         [HttpPost]
         public async Task<IActionResult> Add([FromBody] BAL.DTO.Role dto)
         {

@@ -16,9 +16,8 @@ namespace EmployeeDirectory.BAL.Providers
 
         public async Task<Project> Get(string id)
         {
-            int prjectId=Int32.Parse(id);
             List<Project> list =await GetList();
-            Project project = list.First(x=> x.Id==prjectId);
+            Project project = list.First(x=> x.Id==id);
             return project;
         }
 

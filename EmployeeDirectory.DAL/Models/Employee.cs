@@ -22,28 +22,36 @@ namespace EmployeeDirectory.DAL.Models
         [Required]
         public DateTime JoiningDate { get; set; }
 
-        [Required,ForeignKey("Location")]
-        public int LocationId { get; set; }
+        [Required, ForeignKey("Location"),Length(5,5)]
+        public string LocationId { get; set; } = null!;
 
-        [Required, ForeignKey("Department")]
-        public int DepartmentId { get; set; }
+        [Required, ForeignKey("Department"), Length(5, 5)]
+        public string DepartmentId { get; set; }=null!;
 
-        [Required, ForeignKey("Role")]
+        [Required, ForeignKey("Role"), Length(5, 5)]
         public string RoleId { get; set; } = null!;
 
         [ForeignKey("Project")]
-        public int? ProjectId { get; set; }
+        public string? ProjectId { get; set; }
 
+        [MaxLength(6)]
         public string? ManagerId { get; set; }
 
         public DateTime? DOB { get; set; }
 
         [Length(10,10)]
         public string? Mobile { get; set; }
+
         [DefaultValue("false")]
         public bool? IsManager { get; set; }
+
         [DefaultValue("false"),Required]
         public bool IsDeleted { get; set; }
+
+        [Length(8,30),Required]
+        public string Password { get; set; } = null!;
+
+        public string? Profile { get; set; }
 
         public Role Role { get; set; } = null!;
 

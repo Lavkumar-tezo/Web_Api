@@ -6,8 +6,8 @@ namespace EmployeeDirectory.DAL.Models
     [Table("Project")]
     public class Project
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.Identity), Key]
-        public int Id { get; set; }
+        [Key, Length(5, 5)]
+        public string Id { get; set; } = null!;
 
         [MaxLength(35), MinLength(2), Required]
         public string Name { get; set; } = null!;

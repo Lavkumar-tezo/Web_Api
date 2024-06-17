@@ -22,7 +22,7 @@ namespace EmployeeDirectory.DAL.Repositories
 
         public async Task<Role> Get(string roleId)
         {
-            Role? role =await _dbEfContext.Roles.FirstOrDefaultAsync(role => role.Id.ToLower() == roleId.ToLower());
+            Role? role =await _dbEfContext.Roles.Include(r => r.Departments).Include(r => r.Locations).FirstOrDefaultAsync(role => role.Id.ToLower() == roleId.ToLower());
             if (role == null)
             {
                 throw new Exception("Selected Role not found");

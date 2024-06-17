@@ -28,7 +28,7 @@ namespace EmployeeDirectory.DAL.Repositories
                     .OnDelete(DeleteBehavior.Cascade),
                 j =>
                 {
-                    j.Property<int>("DepartmentId");
+                    j.Property<string>("DepartmentId");
                     j.Property<string>("RoleId").HasMaxLength(5);
                     j.HasKey("DepartmentId", "RoleId");
                     j.ToTable("RoleDepartment");
@@ -40,7 +40,7 @@ namespace EmployeeDirectory.DAL.Repositories
                    .OnDelete(DeleteBehavior.Cascade),
                j =>
                {
-                   j.Property<int>("LocationId");
+                   j.Property<string>("LocationId");
                    j.Property<string>("RoleId").HasMaxLength(5);
                    j.HasKey("LocationId", "RoleId");
                    j.ToTable("RoleLocation");
@@ -51,9 +51,9 @@ namespace EmployeeDirectory.DAL.Repositories
                 domain.HasAlternateKey(dept=> dept.Name);
                 domain.HasMany(dept => dept.Employees).WithOne(emp => emp.Department).HasForeignKey(emp=>emp.DepartmentId);
                 domain.HasData(
-                    new Department { Id= 1,Name = "Product Eng" },
-                    new Department { Id = 2, Name = "QA" },
-                    new Department { Id = 3, Name = "UI/UX" }
+                    new Department { Id= "TD001",Name = "Product Eng" },
+                    new Department { Id = "TD002", Name = "QA" },
+                    new Department { Id = "TD003", Name = "UI/UX" }
                     );
             });
             modelBuilder.Entity<Location>(domain =>
@@ -61,8 +61,8 @@ namespace EmployeeDirectory.DAL.Repositories
                 domain.HasAlternateKey(loc => loc.Name);
                 domain.HasMany(loc => loc.Employees).WithOne(emp => emp.Location).HasForeignKey(emp=>emp.LocationId);
                 domain.HasData(
-                    new Location { Id = 1, Name = "Hyderabad" },
-                    new Location { Id = 2, Name = "Bangalore" }
+                    new Location { Id = "TL001", Name = "Hyderabad" },
+                    new Location { Id = "TL002", Name = "Bangalore" }
                     );
             });
             modelBuilder.Entity<Project>(domain =>
@@ -70,11 +70,11 @@ namespace EmployeeDirectory.DAL.Repositories
                 domain.HasAlternateKey(project => project.Name);
                 domain.HasMany(project => project.Employees).WithOne(emp => emp.Project).HasForeignKey(emp=>emp.ProjectId).OnDelete(DeleteBehavior.SetNull);
                 domain.HasData(
-                    new Project { Id = 1, Name = "Task-1" },
-                    new Project { Id = 2, Name = "Task-2" },
-                    new Project { Id = 3, Name = "Task-3" },
-                    new Project { Id = 4, Name = "Task-4" },
-                    new Project { Id = 5, Name = "Task-5" }
+                    new Project { Id = "TD001", Name = "Task-1" },
+                    new Project { Id = "TD002", Name = "Task-2" },
+                    new Project { Id = "TD003", Name = "Task-3" },
+                    new Project { Id = "TD004", Name = "Task-4" },
+                    new Project { Id = "TD005", Name = "Task-5" }
                 );
             });
             modelBuilder.Entity<Employee>()

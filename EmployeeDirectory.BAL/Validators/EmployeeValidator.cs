@@ -113,8 +113,8 @@ namespace EmployeeDirectory.BAL.Validators
             List<Location> locations = await _loc
                 .GetList();
             List<Role> roles = await _role.GetRoles();
-            Department? selectedDepartment = departments.FirstOrDefault(dept=>string.Equals(dept.Name.ToLower(),dto.Department.ToLower())) ?? throw new Exception("Selected Department not found");
-            Location? selectedLocation = locations.FirstOrDefault(loc => string.Equals(loc.Name.ToLower(), dto.Location.ToLower())) ?? throw new Exception("Selected Location not found");
+            Department? selectedDepartment = departments.FirstOrDefault(dept=>string.Equals(dept.Name.ToLower(),dto.Id.ToLower())) ?? throw new Exception("Selected Department not found");
+            Location? selectedLocation = locations.FirstOrDefault(loc => string.Equals(loc.Name.ToLower(), dto.Id.ToLower())) ?? throw new Exception("Selected Location not found");
             Role? selectedRole = roles.FirstOrDefault(role => string.Equals(role.Name.ToLower(), dto.Role.ToLower())) ?? throw new Exception("Selected Role not found");
             bool isDeptContainRole = (selectedDepartment.Roles != null) && selectedDepartment.Roles.Any(role => role.Id == selectedRole.Id);
             bool isLocContainRole = (selectedLocation.Roles != null) && selectedLocation.Roles.Any(role => role.Id == selectedRole.Id);
@@ -131,19 +131,19 @@ namespace EmployeeDirectory.BAL.Validators
             throw new Exception("Selected Role,Department,Location Combination not found");
         }
 
-        private async Task<string> GenerateEmployeeId()
-        {
-            List<Employee> employees = await _employee.GetEmployees();
-            if (employees.Count == 0)
-            {
-                return "IN001";
-            }
-            string LastRoleId = employees[^1].Id ?? "";
-            int lastRoleNumber = int.Parse(LastRoleId[2..]);
-            lastRoleNumber++;
-            string newId = "TZ" + lastRoleNumber.ToString("D4");
-            return newId;
-        }
+        //private async Task<string> GenerateEmployeeId()
+        //{
+        //    List<Employee> employees = await _employee.GetEmployees();
+        //    if (employees.Count == 0)
+        //    {
+        //        return "IN001";
+        //    }
+        //    string LastRoleId = employees[^1].Id ?? "";
+        //    int lastRoleNumber = int.Parse(LastRoleId[2..]);
+        //    lastRoleNumber++;
+        //    string newId = "TZ" + lastRoleNumber.ToString("D4");
+        //    return newId;
+        //}
 
         public async Task<Employee> ValidateEmployeeDTO(DTO.Employee dto,[Optional]Employee? employee)
         {
@@ -152,11 +152,21 @@ namespace EmployeeDirectory.BAL.Validators
             {
                 emp = employee;
                 dto= StorePreviousValues(dto,employee);
-                emp.Id = employee.Id;
             }
             else
             {
-                emp.Id= await GenerateEmployeeId();
+                try
+                {
+                    var employees = _employee.GetEmployeeById(dto.Id);
+                    if (employees != null)
+                    {
+                        throw new Exception("Id is already present");
+                    }
+                }
+                catch (Exception)
+                {
+                    emp.Id = employee.Id;
+                }
             }
             emp.FirstName=(_val.IsFieldEmpty("FirstName",dto.FirstName))? "":dto.FirstName;
             emp.LastName=(_val.IsFieldEmpty("LastName", dto.LastName))?"":dto.LastName;

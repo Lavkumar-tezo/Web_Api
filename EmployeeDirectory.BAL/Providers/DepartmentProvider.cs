@@ -14,9 +14,8 @@ public class DepartmentProvider(IRepository<Department> dept) : IProvider<Depart
 
     public async Task<Department> Get(string id)
     {
-        int deptId = Int32.Parse(id);
         List<Department> list = await _dept.GetAll();
-        Department dept = list.First(x => x.Id == deptId);
+        Department dept = list.First(x => x.Id == id);
         return dept;
     }
 

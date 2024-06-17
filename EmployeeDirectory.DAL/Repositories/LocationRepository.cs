@@ -16,7 +16,7 @@ namespace EmployeeDirectory.DAL.Repositories
 
         public async Task<Location> Get(string id)
         {
-            Location? location =await _dbEfContext.Locations.FirstOrDefaultAsync(loc => loc.Id == Int32.Parse(id));
+            Location? location =await _dbEfContext.Locations.FirstOrDefaultAsync(loc => loc.Id.Equals(id));
             if(location == null)
             {
                 throw new Exception("Selected Location not found");

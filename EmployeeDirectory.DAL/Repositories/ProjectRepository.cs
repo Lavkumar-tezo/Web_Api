@@ -16,7 +16,7 @@ namespace EmployeeDirectory.DAL.Repositories
 
         public async Task<Project> Get(string id)
         {
-            Project? project = await _dbEfContext.Projects.FirstOrDefaultAsync(loc => loc.Id == Int32.Parse(id));
+            Project? project = await _dbEfContext.Projects.FirstOrDefaultAsync(loc => loc.Id.Equals(id));
             if (project == null)
             {
                 throw new Exception("Selected Project not found");

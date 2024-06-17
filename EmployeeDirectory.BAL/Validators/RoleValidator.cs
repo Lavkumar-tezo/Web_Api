@@ -6,11 +6,11 @@ using System.Data;
 
 namespace EmployeeDirectory.BAL.Validators
 {
-    public class RoleValidator(IValidator val,IProvider<Department> dept,IProvider<Location> loc, IRoleProvider role):IRoleValidator
+    public class RoleValidator(IValidator val,IProvider<DAL.Models.Department> dept,IProvider<DAL.Models.Location> loc, IRoleProvider role):IRoleValidator
     {
         private readonly IValidator _validator=val;
-        private readonly IProvider<Department> _dept = dept;
-        private readonly IProvider<Location> _loc = loc;
+        private readonly IProvider<DAL.Models.Department> _dept = dept;
+        private readonly IProvider<DAL.Models.Location> _loc = loc;
         private readonly IRoleProvider _role=role;
 
         private async Task<string> GenerateRoleId()
@@ -36,16 +36,20 @@ namespace EmployeeDirectory.BAL.Validators
                 throw new Exception("Role name should have alphabets and space only");
             } ;
             List<DAL.Models.Role> roles = await _role.GetRoles();
+            if (roles.Any(role => string.Equals(role.Id.ToLower(), dto.Id.ToLower())))
+            {
+                throw new Exception("Role Already Exists with given id");
+            }
             if (roles.Any(role=> string.Equals(role.Name.ToLower(),dto.Name.ToLower())))
             {
-                throw new Exception("Role Already Exists");
+                throw new Exception("Role Already Exists with given name");
             }
             role.Name=dto.Name;
-            List<Department> departments =await _dept.GetList();
-            List<Department> selectedDepartments = new List<Department>();
+            List<DAL.Models.Department> departments =await _dept.GetList();
+            List<DAL.Models.Department> selectedDepartments = new List<DAL.Models.Department>();
             foreach (var dept in dto.Departments)
             {
-                var department = departments.FirstOrDefault(d => string.Equals(d.Name.ToLower(), dept.ToLower()));
+                var department = departments.FirstOrDefault(d => string.Equals(d.Id.ToLower(), dept.ToLower()));
                 if (department == null)
                 {
                     throw new Exception($"Department '{dept}' not found");
@@ -53,11 +57,11 @@ namespace EmployeeDirectory.BAL.Validators
                 selectedDepartments.Add(department);
             }
             role.Departments= selectedDepartments;
-            List<Location> locations = await _loc.GetList();
-            List<Location> selectedLocations = new List<Location>();
+            List<DAL.Models.Location> locations = await _loc.GetList();
+            List<DAL.Models.Location> selectedLocations = new List<DAL.Models.Location>();
             foreach (var loc in dto.Locations)
             {
-                var location = locations.FirstOrDefault(l => string.Equals(l.Name.ToLower(), loc.ToLower()));
+                var location = locations.FirstOrDefault(l => string.Equals(l.Id.ToLower(), loc.ToLower()));
                 if (location == null)
                 {
                     throw new Exception($"Location '{loc}' not found");

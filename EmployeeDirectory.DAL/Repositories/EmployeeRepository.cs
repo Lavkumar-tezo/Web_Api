@@ -17,8 +17,10 @@ namespace EmployeeDirectory.DAL.Repositories
 
         public async Task<Employee> Get(string empId)
         {
-            Employee? employee = await _dbEfContext.Employees.FirstOrDefaultAsync(e => e.Id.ToLower() == empId.ToLower());
-            if(employee == null)
+            Employee? employee = await _dbEfContext.Employees.Where(x => x.IsDeleted != true).OrderBy(emp => emp.Id).Include("Department").Include("Project").Include("Role").Include("Location").FirstOrDefaultAsync(e => e.Id.ToLower() == empId.ToLower());
+            //List<Employee> employees = await GetAll();
+            //Employee? employee = employees.FirstOrDefault(e => e.Id.ToLower() == empId.ToLower());
+            if (employee == null)
             {
                 throw new Exception("Selected Employee Not found");
             }

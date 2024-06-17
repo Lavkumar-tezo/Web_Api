@@ -1,6 +1,7 @@
 ﻿using EmployeeDirectory.BAL.Interfaces.Providers;
 using EmployeeDirectory.DAL.Interfaces;
 using EmployeeDirectory.DAL.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -18,17 +19,24 @@ namespace EmployeeDirectory.Controllers
 
         [Route("[action]")]
         [HttpGet]
-        public async Task<IActionResult> Login(string id,string email)
+        public async Task<IActionResult> Login(string email,string password)
         {
             List<Employee> employees = await _employee.GetEmployees();
-            employees = employees.Where(emp => emp.IsManager == true).ToList();
-            Employee? user= employees.FirstOrDefault(emp=>string.Equals(id.ToUpper(),emp.Id.ToUpper()) && string.Equals(email.ToLower(),emp.Email.ToLower()));
+            Employee? user= employees.FirstOrDefault(emp=>string.Equals(email.ToUpper(),emp.Email.ToUpper()) && string.Equals(password.ToLower(),emp.Password.ToLower()));
             if(user==null)
             {
-                return BadRequest("Login Failed");
+                return BadRequest("Employee not found");
             }
             var token = GenerateToken(user);
             return Ok(token);
+        }
+
+        [HttpGet("all-claims")]
+        [Authorize]
+        public IActionResult GetAllClaims()
+        {
+            var claims = User.Claims.Select(c => new { c.Type, c.Value }).ToList();
+            return Ok(claims);
         }
 
         private string GenerateToken(Employee emp)
@@ -40,7 +48,8 @@ namespace EmployeeDirectory.Controllers
                    new Claim(JwtRegisteredClaimNames.Sub,_config["Jwt:sub"]!),
                    new Claim(JwtRegisteredClaimNames.Jti,new Guid().ToString()),
                    new Claim("UserId",emp.Id),
-                   new Claim("Email",emp.Email)
+                   new Claim("Email",emp.Email),
+                   new Claim("IsManager",(bool)emp.IsManager?"True":"False")
             };
             var token = new JwtSecurityToken(
              issuer: config["Jwt:iss"],

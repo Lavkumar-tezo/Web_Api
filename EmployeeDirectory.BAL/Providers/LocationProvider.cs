@@ -16,9 +16,8 @@ namespace EmployeeDirectory.BAL.Providers
 
         public async Task<Location> Get(string id)
         {
-            int locId = Int32.Parse(id);
             List<Location> list =await GetList();
-            Location loc = list.First(x => x.Id == locId);
+            Location loc = list.First(x => x.Id == id);
             return loc;
         }
 

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj": {}
+    "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj": {
+    "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj",
+        "projectUniqueName": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj",
         "projectName": "EmployeeDirectory.DAL",
-        "projectPath": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj",
+        "projectPath": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory.DAL\\EmployeeDirectory.DAL.csproj",
         "packagesPath": "C:\\Users\\lav.k\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\EmployeeDirectory.DAL\\obj\\",
+        "outputPath": "C:\\Users\\lav.k\\OneDrive - Technovert\\Desktop\\tezo\\JWT\\Web_Api\\EmployeeDirectory.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lav.k\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,10 @@
           "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.Authorization": {
               "target": "Package",
               "version": "[8.0.6, )"
             },

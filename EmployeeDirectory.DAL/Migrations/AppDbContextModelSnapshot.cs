@@ -24,11 +24,8 @@ namespace EmployeeDirectory.DAL.Migrations
 
             modelBuilder.Entity("EmployeeDirectory.DAL.Models.Department", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -44,17 +41,17 @@ namespace EmployeeDirectory.DAL.Migrations
                     b.HasData(
                         new
                         {
-                            Id = 1,
+                            Id = "TD001",
                             Name = "Product Eng"
                         },
                         new
                         {
-                            Id = 2,
+                            Id = "TD002",
                             Name = "QA"
                         },
                         new
                         {
-                            Id = 3,
+                            Id = "TD003",
                             Name = "UI/UX"
                         });
                 });
@@ -68,8 +65,9 @@ namespace EmployeeDirectory.DAL.Migrations
                     b.Property<DateTime?>("DOB")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("DepartmentId")
-                        .HasColumnType("int");
+                    b.Property<string>("DepartmentId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -95,17 +93,26 @@ namespace EmployeeDirectory.DAL.Migrations
                         .HasMaxLength(35)
                         .HasColumnType("nvarchar(35)");
 
-                    b.Property<int>("LocationId")
-                        .HasColumnType("int");
+                    b.Property<string>("LocationId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("ManagerId")
+                        .HasMaxLength(6)
                         .HasColumnType("nvarchar(6)");
 
                     b.Property<string>("Mobile")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("ProjectId")
-                        .HasColumnType("int");
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Profile")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProjectId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("RoleId")
                         .IsRequired()
@@ -128,11 +135,8 @@ namespace EmployeeDirectory.DAL.Migrations
 
             modelBuilder.Entity("EmployeeDirectory.DAL.Models.Location", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -148,23 +152,20 @@ namespace EmployeeDirectory.DAL.Migrations
                     b.HasData(
                         new
                         {
-                            Id = 1,
+                            Id = "TL001",
                             Name = "Hyderabad"
                         },
                         new
                         {
-                            Id = 2,
+                            Id = "TL002",
                             Name = "Bangalore"
                         });
                 });
 
             modelBuilder.Entity("EmployeeDirectory.DAL.Models.Project", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -180,27 +181,27 @@ namespace EmployeeDirectory.DAL.Migrations
                     b.HasData(
                         new
                         {
-                            Id = 1,
+                            Id = "TD001",
                             Name = "Task-1"
                         },
                         new
                         {
-                            Id = 2,
+                            Id = "TD002",
                             Name = "Task-2"
                         },
                         new
                         {
-                            Id = 3,
+                            Id = "TD003",
                             Name = "Task-3"
                         },
                         new
                         {
-                            Id = 4,
+                            Id = "TD004",
                             Name = "Task-4"
                         },
                         new
                         {
-                            Id = 5,
+                            Id = "TD005",
                             Name = "Task-5"
                         });
                 });
@@ -229,8 +230,8 @@ namespace EmployeeDirectory.DAL.Migrations
 
             modelBuilder.Entity("RoleDepartment", b =>
                 {
-                    b.Property<int>("DepartmentId")
-                        .HasColumnType("int");
+                    b.Property<string>("DepartmentId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("RoleId")
                         .HasMaxLength(5)
@@ -245,8 +246,8 @@ namespace EmployeeDirectory.DAL.Migrations
 
             modelBuilder.Entity("RoleLocation", b =>
                 {
-                    b.Property<int>("LocationId")
-                        .HasColumnType("int");
+                    b.Property<string>("LocationId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("RoleId")
                         .HasMaxLength(5)
